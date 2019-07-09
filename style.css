@@ -1,0 +1,115 @@
+/* font-family: "Open Sans Condensed", sans-serif;
+font-family: "Roboto Condensed", sans-serif; */
+
+#canvas {
+  font-size: 16px;
+  background-color: black;
+  background-image: none;
+}
+
+@media screen (min-width: 450px) and (max-width: 990px) {
+  #canvas {
+    background-color: pink;
+    background-image: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  #canvas {
+    background-image: url("./img/back.png");
+    /* min-width: 100vw; */
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 55px;
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 2rem;
+  line-height: 120%;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.8rem;
+  line-height: 120%;
+}
+
+span {
+  color: rgb(190, 220, 219);
+}
+
+.very_bold {
+  font-weight: 700;
+}
+.bold_section {
+  font-weight: bold;
+  color: black;
+}
+
+section {
+  margin: 20px 30px;
+  padding: 20px;
+  background-color: rgb(190, 220, 219);
+  border-radius: 15px;
+  border-width: 2px grey;
+}
+#MyProfilePicture {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+li {
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 25px;
+  line-height: 120%;
+}
+
+.icone {
+  width: 60px;
+  border-radius: 15px;
+  vertical-align: top;
+  display: inline-block;
+  margin: 20px 30px;
+  padding: 20px;
+}
+@media screen and (min -width: 480px) {
+  #main_section {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#about_me {
+  max-width: 30vw;
+}
+#built {
+  max-width: 30vw;
+}
+#slills {
+  max-width: 30vw;
+}
